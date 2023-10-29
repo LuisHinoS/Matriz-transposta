@@ -3,7 +3,7 @@
 int main() {
     int linhas, colunas;
 
-    printf("Informe o número de linhas e colunas da matriz: ");
+    printf("Digite o número de linhas e colunas da matriz: ");
     scanf("%d %d", &linhas, &colunas);
 
     if (linhas <= 0 || colunas <= 0) {
@@ -13,7 +13,7 @@ int main() {
 
     int matriz[100][100], transposta[100][100];
 
-    printf("Insira os elementos da matriz:\n");
+    printf("Digite os elementos da matriz:\n");
     for (int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
             scanf("%d", &matriz[i][j]);
